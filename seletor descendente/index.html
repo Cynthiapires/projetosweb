@@ -1,0 +1,41 @@
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content= "IE=edge"> 
+    <meta name="viewport" content="width-device-width, initial-scale-1.0" >
+    <title>z-index</title>
+    
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css" >
+    
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigins>
+    <link href="https://fonts.googleapis.com/css2?family-Roboto:wght@10e&display-swap"rel="stylesheet";>
+</head>
+    
+    <body> 
+    <header>
+    <h1>Seletor descendente</h1>
+    <hr> 
+    </header>
+    
+    <main>
+        <ul>
+            <li><a href="#">Link a descendente de li</a></li>
+            <li>
+                <span>
+                    <!--a é neto de li-->
+                    <li><a href="#">Link a descendente de li</a></li>
+                </span>
+            </li>
+            <li><a href="#">Link a descendente de li</a></li>
+        </ul>
+
+        <p>
+            <a href="#">Link a é Filho de p</a><br>
+            <a href="#">Link a é Filho de p</a><br>
+            <a href="#">Link a é Filho de p</a>
+        </p>
+    
+    </main>
+    </body>

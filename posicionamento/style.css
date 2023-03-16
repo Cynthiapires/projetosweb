@@ -1,0 +1,26 @@
+body{
+    background-color: #ecd39b;
+}
+
+hi{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    width: 250px;  
+}
+
+#container {
+    margin: 0px auto;
+    background-color: #ffffff;
+    width: 600px;
+}
+
+/*Posicionamento Fixo*/
+.fixo {
+    border: 1px solid #ff0000;
+    position: fixed;
+    left: 350px;
+}

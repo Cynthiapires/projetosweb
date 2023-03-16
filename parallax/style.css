@@ -1,0 +1,7 @@
+body, html {
+    margin: 0px;
+    font-family: sans-serif;
+    color: #777;
+    /*IMPORTANTE PARO EFEITO PARALLAX*/
+    height: 100%;
+}

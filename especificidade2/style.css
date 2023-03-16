@@ -1,0 +1,35 @@
+* {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+h1 {
+    font-family: 'roboto';
+    color: #a52a2a;
+}
+
+h2 {
+    font-family: 'roboto';
+    font-weight: bold;
+}
+
+p {
+    font-family: 'roboto';
+    font-size: 1.3em;
+}
+
+#paragrafo {
+    color: green;
+}
+
+.texto {
+    color: purple;
+}
+
+/*
+Neste exemplo, o elemento <p> tem tanto um
+ID quanto uma classe. No entanto, a regra
+#paragrafo é mais específica do que a regra.
+texto, então a cor do texto será verde.
+*/
+
