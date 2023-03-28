@@ -1,0 +1,23 @@
+/* Inicio da Tabela */
+
+.tabelas>table th, td {
+   text-align: left;
+   padding: 8px;
+}
+
+.tabelas>table th {
+   background-color: #FFBF38;
+   text-align: center;
+}
+
+#todas-tabelas {
+   margin-left: 20%;
+}
+.tabelas {
+   float: left;
+   margin: 2% 8%;
+}
+
+.tabelas>table {
+   width: 300px;
+}

@@ -1,0 +1,127 @@
+#area {
+   float: unset;
+   top: 10em;
+   width: 400px;
+   height: 400px;
+   padding: 0px;
+   margin-left: 600px;
+   margin-top: 50px;
+   vertical-align: baseline;
+   min-height: 100vh;
+}
+
+#area #formulario {
+   position: absolute;
+   left: 50px;
+   display: block;
+   border-color: black;
+}
+
+fieldset {
+   background-color: wheat;
+   width: 900px;
+   height: 500px;
+}
+
+legend {
+   font-weight: bold;
+   font-size: 25px;
+   color: #003d5c;
+   font-family: 'Nunito Sans', sans-serif;
+}
+
+#formulario label {
+   position: absolute;
+   left: 30px;
+   margin-right: 15px;
+}
+
+#formulario input.campo_none {
+   background-color: #181715;
+   position: absolute;
+   left: 100px;
+   top: 30px;
+   width: 400px;
+}
+
+#formulario input.campo_email {
+   background-color: #FFBF38;
+   position: absolute;
+   left: 95px;
+   top: 2px;
+   width: 400px;
+}
+
+#formulariotextarea.msg {
+   position: absolute;
+   background-color: #FFBF38;
+   color: #003d5c;
+}
+
+#formulario input.btn_submit {
+   border-style: dashed;
+   position: absolute;
+   bottom: 5em;
+   right: 30px;
+   background-color: #003d5c;
+   font-size:large ;
+   font-family: 'Nunito Sans', sans-serif;
+}
+
+label {
+   color: #003d5c;
+   font-size:15px ;
+   font-weight: bold;
+   font-family: 'Nunito Sans', sans-serif;
+}
+
+input {
+   color: black;
+   font-weight: bold;
+   font-family: 'Nunito Sans', sans-serif;
+}
+
+.btn_submit {
+   background-color: aliceblue;
+   color: #003d5c;
+   border-radius: 5px;
+   width: 150px;
+   height: 30px;
+   font-size: large;
+}
+
+.msg {
+   font-size: large;
+    font-weight: bold;
+    background-color: aliceblue;
+    height: 50%;
+    width: 90%;
+    
+}
+
+.msg {
+   font-size: large;
+    font-weight: bold;
+    background-color: aliceblue;
+    height: 50%;
+    width: 90%;
+    
+}
+
+.campo_email{
+   font-size: large;
+    font-weight: bold;
+    background-color: aliceblue;
+    height:6%;
+    width: 50%;
+    margin-top: 2%; 
+}
+
+.campo_nome{
+   font-size: large;
+    font-weight: bold;
+    background-color: aliceblue;
+    height:6%;
+    width: 50%;
+    margin-top: 2%; 
+}

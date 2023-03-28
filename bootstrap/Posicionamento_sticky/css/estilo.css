@@ -1,0 +1,11 @@
+section{
+    width: 80%;
+    margin: 0px auto;
+    background-color: #ffebcd;
+    font-family: "roboto";
+    font-weight: bold !important;
+}
+
+li {
+    display: inline-block
+}

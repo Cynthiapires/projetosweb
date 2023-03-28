@@ -1,0 +1,438 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap");
+html {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*HEADER*/
+header {
+  background-color: black;
+  background-position: center center;
+  background-size: cover;
+  padding: 100px;
+  height: 160px;
+  background-image: url("../img/banner/bnner.png");
+}
+
+/*NAV*/
+nav {
+  text-align: left;
+  background-color: #daeffc;
+  height: 15px;
+  padding: 12px;
+}
+nav > a {
+  color: #003d5c;
+  text-decoration: none;
+  margin-left: 10px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.capa {
+  width: 177px;
+  height: 300px;
+  border-radius: 10px;
+  margin-left: 30px;
+}
+
+img {
+  object-fit: cover;
+  width: 450px;
+  height: 450px;
+  border-radius: 10px;
+  border-bottom-right-radius: 0%;
+  border-top-right-radius: 0%;
+  border-bottom-left-radius: 0%;
+  border-top-left-radius: 0%;
+}
+
+figure {
+  float: center;
+  width: 30%;
+  text-indent: 0;
+  margin: 0.5em;
+  padding: 0.5em;
+  clear: both;
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+  font-size: large;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  padding-left: 30px;
+  clear: both;
+}
+
+h1 {
+  font-family: "Sofia", sans-serif;
+  color: black;
+  padding-left: 30px;
+}
+
+h2 {
+  font-family: "Nunito Sans", sans-serif;
+  color: #ffbf38;
+  font-weight: bold;
+  text-align: center;
+  padding: 30px;
+  font-size: 30px;
+  clear: both;
+}
+
+h3 {
+  font-family: "Nunito Sans", sans-serif;
+  color: #ffbf38;
+  padding-left: 30px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+}
+
+main {
+  max-width: 90%;
+  border-left: 120px solid white;
+  border-right: 120px solid white;
+  margin-top: 10px;
+}
+
+body {
+  background-color: white;
+}
+
+.galeria {
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  padding: 1px;
+  clear: both;
+}
+
+button {
+  background-color: aliceblue;
+  color: #003d5c;
+  border-radius: 5px;
+  width: 150px;
+  height: 30px;
+  font-size: large;
+}
+
+p {
+  color: #003d5c;
+  text-decoration: none;
+  margin-left: 10px;
+  font-family: "Nunito Sans", sans-serif;
+  text-align: justify;
+  font-size: 200px;
+  font-weight: bold;
+  float: left;
+  margin: 0px;
+}
+
+main {
+  width: 100%;
+  min-height: auto;
+}
+
+h6 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 25px;
+  font-weight: bolder;
+  text-align: center;
+  color: #003d5c;
+  margin-right: 30px;
+}
+
+.todos-produtos{
+    display: flex;
+}
+.produtos-1{
+    display: flex;
+    width: 100%;
+}
+.item-1 {
+  width: 12%;
+  margin: 3%;
+}
+
+.item-1 > img {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  background-color: aliceblue;
+  color: #003d5c;
+  border-radius: 5px;
+  width: 150px;
+  height: 30px;
+  font-size: large;
+}
+
+.conteudo {
+  margin-bottom: 50px;
+}
+
+.texto {
+  font-size: large;
+  font-weight: bold;
+  text-align: justify;
+  color: #ffbf38;
+  background-color: #003d5c;
+  height: 100%;
+  width: 50%;
+}
+
+.texto1 {
+  font-size: large;
+  font-weight: bold;
+  text-align: right;
+  margin-left: 900px;
+  background-color: #ffbf38;
+  height: 100%;
+  width: 50%;
+}
+
+/* sobre Nós */
+.container {
+  background-color: antiquewhite;
+  text-align: center;
+  margin-left: 14%;
+  margin-top: 5%;
+  display: flex;
+  width: fit-content;
+}
+
+.texto-sobre {
+    background-color: #fbf2e3;
+    width: 50%;
+    height: 400px;
+    padding-top: 3.4%;
+    text-align: center center;
+  }
+
+  .container > img {
+    
+  }
+
+
+
+
+/* Inicio da Tabela */
+
+.tabelas > table th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+.tabelas > table th {
+  background-color: #ffbf38;
+  text-align: center;
+}
+
+#todas-tabelas {
+  margin-left: 20%;
+  display: flex;
+}
+.tabelas {
+  
+  margin: 2% 8%;
+}
+
+.tabelas > table {
+  width: 300px;
+}
+/* Final da Tabela */
+
+/*INICIO SUPORTE*/
+
+#area {
+  top: 10em;
+  display: flex;
+justify-content: center;
+  height: 400px;
+  padding: 0px;
+  margin-top: 50px;
+  min-height: 100vh;
+}
+
+#area #formulario {
+  position: absolute;
+  left: 50px;
+  display: block;
+  border-color: black;
+}
+
+fieldset {
+  background-color: wheat;
+  width: 900px;
+  height: 500px;
+}
+
+legend {
+  font-weight: bold;
+  font-size: 25px;
+  color: #003d5c;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+#formulario label {
+  position: absolute;
+  left: 30px;
+  margin-right: 15px;
+}
+
+#formulario input.campo_none {
+  background-color: #181715;
+  position: absolute;
+  left: 100px;
+  top: 30px;
+  width: 400px;
+}
+
+#formulario input.campo_email {
+  background-color: #ffbf38;
+  position: absolute;
+  left: 95px;
+  top: 2px;
+  width: 400px;
+}
+
+#formulariotextarea.msg {
+  position: absolute;
+  background-color: #ffbf38;
+  color: #003d5c;
+}
+
+#formulario input.btn_submit {
+  border-style: dashed;
+  position: absolute;
+  bottom: 5em;
+  right: 30px;
+  background-color: #003d5c;
+  font-size: large;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+label {
+  color: #003d5c;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+input {
+  color: black;
+  font-weight: bold;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.btn_submit {
+  background-color: aliceblue;
+  color: #003d5c;
+  border-radius: 5px;
+  width: 150px;
+  height: 30px;
+  font-size: large;
+}
+
+.msg {
+  font-size: large;
+  font-weight: bold;
+  background-color: aliceblue;
+  height: 50%;
+  width: 90%;
+}
+
+.msg {
+  font-size: large;
+  font-weight: bold;
+  background-color: aliceblue;
+  height: 50%;
+  width: 90%;
+}
+
+.campo_email {
+  font-size: large;
+  font-weight: bold;
+  background-color: aliceblue;
+  height: 6%;
+  width: 50%;
+  margin-top: 2%;
+}
+
+.campo_nome {
+  font-size: large;
+  font-weight: bold;
+  background-color: aliceblue;
+  height: 6%;
+  width: 50%;
+  margin-top: 2%;
+}
+
+/*FIM SUPORTE*/
+
+/*FOOTER*/
+.footer {
+  width: 100%;
+  height: 25vh;
+  background-color: #003d5c;
+  clear: both;
+  text-align: center;
+}
+
+.footer h2 {
+  clear: both;
+  margin: 2%;
+  text-align: center;
+  font-weight: normal;
+  margin-left: 4%;
+}
+
+.info-1 {
+  float: left;
+  margin: 2%;
+  margin-left: 14%;
+  font-size: larger;
+  color: aliceblue;
+}
+
+.info-1 ul li {
+  font-size: larger;
+  list-style-type: none;
+  text-align: center;
+  font-size: larger;
+}
+
+.info-2 {
+  font-size: larger;
+  float: left;
+  margin: 2%;
+  margin-left: 50%;
+  color: aliceblue;
+}
+
+.info-2 ul li {
+  font-size: larger;
+  list-style-type: none;
+  text-align: center;
+}

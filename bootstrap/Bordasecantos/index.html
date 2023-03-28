@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<!--Bootstrap (CDN)-->
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+<style>
+
+main.bordas{
+width: 80%;
+margin: 0px auto;
+background-color: #ffebcd;
+font-family: 'roboto';
+font-weight: bold !important;
+}
+</style>
+</head>
+<body>
+<header>
+<h1 class="my-3 mx-3 display-1">Bordas e cantos arredondados</h1>
+</header>
+<hr>
+
+<main class="bordas">
+    <!--
+        border: Todas as bordas
+        top: Superior botton: inferior end: direita start: esquerda
+        para colocar cor: border-rimary, secondary...
+    -->
+        <!--mb: margem inferior (botton)-->
+<div class="bg-white mb-2 p-2 border border-primary fs-3">Todos os lados</div>
+<div class="bg-white mb-2 p-2 border-top border-secondary fs-3 mt-4">Topo</div>
+<div class="bg-white mb-2 p-2 border-end border-success fs-3 mt-4">Direita</div>
+<div class="bg-white mb-2 p-2 border-bottom border-warning fs-3 mt-4">Inferior</div>
+<div class="bg-white mb-2 p-2 border-start border-danger fs-3 mt-4">Esquerda</div>
+
+<!--
+        border radius
+        rouded, top, end, bottom, start, circle
+    -->
+        <div class="bg-white mb-2 p-2 border border-4 border-primary rouded fs-3">Todos os lados</div>
+        <div class="bg-white mb-2 p-2 border border-secondary rouded-top fs-3">Todos os lados</div>
+        <div class="bg-white mb-2 p-2 border border-success  rouded-end fs-3">Todos os lados</div>
+        <div class="bg-white mb-2 p-2 border border-danger rouded-bottom fs-3">Todos os lados</div>
+        <div class="bg-white mb-2 p-2 border border-danger  rouded-start fs-3">Todos os lados</div>
+        <div class="bg-white mb-2 p-2 border border-danger  rouded-pill fs-3">Todos os lados</div>
+
+<div>
+    <img class="border rounded-circle" src="../Bordasecantos/img/1.jpg" alt="">
+</div>
+eu estou te observando
+</main>
+</body>
+</html>
